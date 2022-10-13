@@ -9,3 +9,5 @@ ver todas las caratulas subidas de cada banda, subir tu musica, subir tus videos
 Puede Navegar por las diferentes paginas de la Wep con el Menu Navegador en la esquina ezquierda, o con los diferentes tutulos descripto en la lista de posibilidades de ingresos mas populares.
 
 Hay una Pestaña de ayuda para poder asistirlo en cualquer momento con respecto a la Web.
+
+
