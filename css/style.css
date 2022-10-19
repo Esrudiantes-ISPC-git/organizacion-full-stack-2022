@@ -139,7 +139,7 @@ form>p {
 }
 
 .nav__feed {
-    height: 280px;
+    height: 320px;
     background-color: #151414;
     display: flex;
     justify-content: space-between;
@@ -174,11 +174,18 @@ form>p {
     color: #17CC29;
     font-size: 48px;
     font-weight: 600;
+    margin-bottom: 0px;
 }
 
 .nav__profile-tipo {
     color: #ffffff;
     font-size: 38px;
+    font-weight: 400;
+}
+
+.nav__profile-Ciudad {
+    color: #ffffff;
+    font-size: 25px;
     font-weight: 400;
 }
 
@@ -213,8 +220,8 @@ form>p {
     align-items: center;
     justify-content: center;
     border-radius: 50px;
-    height: 44px;
-    width: 295px;
+    height: 30px;
+    width: 250px;
 }
 
 .nav__profile-btn-contact {
@@ -240,4 +247,23 @@ form>p {
     font-size: 24px;
     color: #151414;
     transform: scale(1.08);
+}
+
+.seccion-izq_perfiles {
+    position: absolute;
+    width: 300px;
+    height: 580px;
+    left: 24px;
+    top: 305px;
+    background: #151414;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 39px;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+.txt-izq_perfiles {
+    color: white;
+    font-size: 15px;
+    text-align: center;
 }
