@@ -56,6 +56,8 @@ form>p {
     cursor: pointer;
     position: relative;
     z-index: 0;
+
+    text-decoration: none;
 }
 
 .login__btn:before {
