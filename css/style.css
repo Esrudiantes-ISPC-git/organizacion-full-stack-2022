@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'system-ui', sans-serif;
 }
 
 main {
@@ -161,8 +161,9 @@ form>p {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: start;
     padding: 20px;
+    padding-left: 300px;
 }
 
 .nav__profile-info {
@@ -197,6 +198,7 @@ form>p {
     background-color: transparent;
     border: 2px solid #17CC29;
     color: #17CC29;
+    font-size: 20px;
 }
 
 .nav__feed-profile {
@@ -211,6 +213,7 @@ form>p {
     align-items: flex-end;
     justify-content: space-around;
     gap: 10px;
+    width: 25%;
 }
 
 .nav__profile-btn-disponible {
@@ -235,8 +238,6 @@ form>p {
     font-weight: 700;
 }
 
-
-
 .feed>a {
     font-weight: 500px;
     font-size: 24px;
@@ -253,21 +254,62 @@ form>p {
 
 .seccion-izq_perfiles {
     position: absolute;
-    width: 300px;
+    width: 20%;
     height: 580px;
     left: 24px;
     top: 305px;
     background: #151414;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    
     margin-top: 40px;
+    padding: 8px;
     padding-top: 20px;
+    border-radius: 10px;
 }
 
 .txt-izq_perfiles {
     color: white;
     font-size: 15px;
     text-align: center;
+}
+
+.subrayado {
+    text-decoration: underline;
+}
+
+.tag-genero {
+    background-color: #17CC29;
+    color: white;
+    width: auto;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 3px;
+    border-radius: 50px;
+    display: inline-table;
+}
+
+.seccion-cds {
+    display: inline-flex;
+}
+
+.card-cd {
+    width: 170px;
+    height: 170px;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.img-cd {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;;
+}
+
+.info-cd {
+    text-align: center;
+    font-weight: 600;
 }
 
 /******************** FOOTER ************************/
