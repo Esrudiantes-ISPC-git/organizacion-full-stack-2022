@@ -7,3 +7,11 @@ Individualmente, los usuarios podrán suscribirse, buscar músicos para integrar
 Como banda, los usuarios también podrán armar su perfil conjunto y cargar toda la información acerca de su trabajo: música, videos, información de contacto, próximos shows, entre otros.
 
 El proyecto también contará con perfiles para personas que tengan espacios para espectáculos, para que puedan conocer artistas a través de nuestro sitio y contactarlos para agendar shows en su lugar.
+
+﻿# Deploy de la carpeta Front-End
+ 
+https://match-music.netlify.app/
+
+﻿# Maqueta en Figma
+ 
+ https://www.figma.com/file/ELkqMrsz5tkrXCObzN0Ssi/Proyecto-Integrador-ISPC?node-id=2%3A95
