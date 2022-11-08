@@ -21,6 +21,8 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
+
+    <script defer src="./js/form.js"></script>
   </head>
 
   <body>
@@ -28,13 +30,23 @@
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">MATCH MUSIC</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Inicio</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="feed.html">Mi Perfil</a>
@@ -51,44 +63,53 @@
       </nav>
     </header>
     <main class="text-center">
-      <form class="col-6">
+      <form class="col-6" id="form" action="./login.html" method="get">
         <h1 class="login__logo">MATCH MUSIC</h1>
         <p>registro</p>
-        <label class="form-label d-block mt-1 login__input">
+        <label for="nombre" class="form-label d-block mt-1 login__input">
           <input
-            class="form-control"
+            class="form-control required"
             type="text"
             name="nombre"
             placeholder="Nombre:"
+            required
+            id="nombre"
           />
         </label>
         <label class="form-label d-block mt-1 login__input">
           <input
-            class="form-control"
+            class="form-control required"
             type="text"
             name="username"
             placeholder="Username:"
+            required
+            id="username"
           />
         </label>
         <label class="form-label d-block mt-1 login__input">
           <input
-            class="form-control"
+            class="form-control required"
             type="email"
             name="email"
             placeholder="Email:"
+            required
+            id="email"
           />
         </label>
         <label class="form-label d-block login__input">
           <input
-            class="form-control"
+            class="form-control required"
             type="password"
             name="password"
             placeholder="Password:"
+            required
+            id="password"
           />
         </label>
-        <a href="login.html" role="button" class="login__btn">
+        <div id="error" class="error"></div>
+        <button type="submit" class="login__btn">
           <p class="login__btn-p">registrar</p>
-        </a>
+        </button>
       </form>
     </main>
 
