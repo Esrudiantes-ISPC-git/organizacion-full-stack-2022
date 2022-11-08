@@ -415,6 +415,61 @@ form > p {
   font-size: 12px;
 }
 
+.muro__feed {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 10px;
+  background-color: rgb(255, 255, 255);
+  width: 70vw;
+  gap: 20px;
+  border-radius: 30px 30px 0 0;
+  padding: 40px 60px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.muro {
+  background-color: #151414;
+  display: flex;
+}
+
+.posteo {
+  display: flex;
+  flex-direction: column;
+}
+
+.posteo__top {
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+.posteo__text {
+  padding: 0 50px;
+}
+
+.posteo__video {
+  padding: 0 50px;
+}
+
+.posteo__foto {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.posteo__enlace {
+  text-decoration: none;
+  color: #000;
+}
+
+.posteo__enlace:hover {
+  font-weight: 900;
+  color: #17cc29;
+}
+
 @media screen and (max-width: 1000px) {
   .nav__feed-btns {
     flex-direction: row;
@@ -423,6 +478,10 @@ form > p {
   .nav__feed {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .muro__feed {
+    width: 90vw;
   }
 }
 
@@ -478,5 +537,13 @@ form > p {
     align-items: center;
     justify-content: center;
     padding: 15px;
+  }
+
+  .posteo__video {
+    width: 80vw;
+  }
+
+  .muro__feed {
+    padding: 20px 10px;
   }
 }
