@@ -405,6 +405,16 @@ form > p {
   color: white;
 }
 
+.footer__nuevo {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: #151414;
+  padding: 15px;
+  text-align: center;
+  font-size: 12px;
+}
+
 @media screen and (max-width: 1000px) {
   .nav__feed-btns {
     flex-direction: row;
