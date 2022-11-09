@@ -202,6 +202,17 @@ form > p {
   width: 100vw;
 }
 
+.feed-perfil {
+  background-color: #cdcdcd;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  width: 100vw;
+  height: auto;
+}
+
 .nav__profile-info {
   display: flex;
   flex-direction: column;
@@ -470,6 +481,55 @@ form > p {
   color: #17cc29;
 }
 
+.card-shadow {
+  box-shadow: 3px 2px 8px rgba(0, 0, 0, 0.5);
+}
+.btn-primary {
+  background-color: #17cc29 !important;
+  border: none !important;
+  transition: transform 450ms !important;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+}
+
+.mis-bandas {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 50vw;
+}
+
+.card-img-top {
+  object-fit: cover !important;
+}
+
+.cont__perfil-aside {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bandas-videos-canciones {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-wrap: wrap;
+  flex: 2;
+}
+
+.aside {
+  flex: 1;
+}
+
+@media screen and (max-width: 1300px) {
+  .seccion-izq_perfiles {
+    width: 220px;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .nav__feed-btns {
     flex-direction: row;
@@ -481,6 +541,21 @@ form > p {
   }
 
   .muro__feed {
+    width: 90vw;
+  }
+
+  .seccion-izq_perfiles {
+    width: 90vw;
+    margin: auto;
+  }
+
+  .bandas-videos-canciones {
+    margin-top: 400px;
+    margin-left: 10px;
+    flex-direction: row;
+  }
+
+  .mis-bandas {
     width: 90vw;
   }
 }
@@ -545,5 +620,11 @@ form > p {
 
   .muro__feed {
     padding: 20px 10px;
+  }
+
+  .bandas-videos-canciones {
+    margin-top: 480px;
+    margin-left: 10px;
+    flex-direction: column;
   }
 }
