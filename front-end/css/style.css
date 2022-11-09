@@ -200,6 +200,7 @@ form > p {
   align-items: center;
   padding: 20px;
   width: 100vw;
+  height: fit-content;
 }
 
 .feed-perfil {
@@ -484,6 +485,7 @@ form > p {
 .card-shadow {
   box-shadow: 3px 2px 8px rgba(0, 0, 0, 0.5);
 }
+
 .btn-primary {
   background-color: #17cc29 !important;
   border: none !important;
@@ -494,11 +496,25 @@ form > p {
   transform: scale(1.05);
 }
 
+.btn-ver-mas {
+  border-radius: 50px !important;
+  width: 5vw;
+  height: 5vw;
+}
+
 .mis-bandas {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
+  gap: 10px;
+  width: 50vw;
+}
+
+.discografia {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   gap: 10px;
   width: 50vw;
 }
@@ -522,6 +538,61 @@ form > p {
 
 .aside {
   flex: 1;
+}
+
+.btn-audio {
+  width: 40px;
+  height: 40px;
+}
+
+.btn-audio-play {
+  width: 25px;
+  height: 25px;
+}
+
+.reproductor-audio {
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: flex-start;
+  align-items: center;
+}
+
+.barra-progreso-audio {
+  width: 20vw;
+  height: 1vw;
+  background-color: grey;
+  display: inline-block;
+}
+
+.barra-volumen {
+  width: 6vw;
+  height: 1vw;
+  background-color: grey;
+  display: inline-block;
+}
+
+.item-audio {
+  display: flex;
+  justify-content: space-between;
+  background-color: grey;
+  color: black;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.item-audio:hover {
+  background-color: black;
+  color: white;
+}
+
+.item-audio-seleccionado {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 @media screen and (max-width: 1300px) {
