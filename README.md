@@ -15,3 +15,7 @@ https://match-music.netlify.app/
 # Maqueta en Figma
 
 https://www.figma.com/file/ELkqMrsz5tkrXCObzN0Ssi/Proyecto-Integrador-ISPC?node-id=2%3A95
+
+Proyecto Sistema Gestion de Contenido
+
+https://proyectoispc-grupo20.ed.urltemporal.com/wp/
