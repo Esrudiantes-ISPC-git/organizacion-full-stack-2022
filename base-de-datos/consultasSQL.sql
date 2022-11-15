@@ -4,16 +4,16 @@ SELECT * from suscripcion;
 SELECT * from suscripcion WHERE suscri_id = 1;
 UPDATE suscripcion SET Pass = "hola" WHERE suscri_id = 1;
 
-# Tabla "perfil1"
-INSERT INTO perfil1 VALUES (1, "Valentino", "Giannico", "Valen", "2003-01-04", "Bajo", "Cordoba", "Verano del 92", "cancion1.mp3", "video1.mp4", "riff1.mp3", "melodia1", "portada1.png", "Futbol, Musica", null, 1);
-SELECT * FROM perfil1 WHERE per_1 = 1;
-UPDATE perfil1 SET instrumento = "Guitarra" WHERE per_1 = 1;
+# Tabla "MiPerfil"
+INSERT INTO miperfil VALUES (1, "Valentino", "Giannico", "Valen", "2003-01-04", "Bajo", "Cordoba", "Verano del 92", "cancion1.mp3", "video1.mp4", "riff1.mp3", "melodia1", "portada1.png", "Futbol, Musica", null, 1);
+SELECT * FROM miperfil WHERE per_1 = 1;
+UPDATE miperfil SET instrumento = "Guitarra" WHERE per_1 = 1;
 
-#Tabla "perfil2"
-INSERT INTO perfil2 VALUES("", "Jorge Bustos, Valentino Giannico, Camila Lopez", "Carcel en Llamas", "Valentino", "Giannico", "Valen", "Tan solo, Musica Ligera", 1)
-SELECT * from perfil2;
-SELECT * from perfil2 WHERE per_2 = 1;
-UPDATE perfil2 SET nombreBanda = "Tan Bionica" WHERE per_2 = 1;
+#Tabla "MiBanda"
+INSERT INTO mibanda VALUES("", "Jorge Bustos, Valentino Giannico, Camila Lopez", "Carcel en Llamas", "Valentino", "Giannico", "Valen", "Tan solo, Musica Ligera", 1)
+SELECT * from mibanda;
+SELECT * from mibanda WHERE per_2 = 1;
+UPDATE mibanda SET nombreBanda = "Tan Bionica" WHERE per_2 = 1;
 
 #Tabla "per1_per2"
 INSERT INTO per1_per2 VALUES (1, 1);
