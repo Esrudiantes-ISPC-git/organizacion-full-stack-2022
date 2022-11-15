@@ -48,7 +48,7 @@ constraint fk_fp1_1 foreign key (per_1_1) references MiPerfil (per_1)
 create table MisVideos (
 vid_1 int auto_increment,
 solista varchar (100),
-ConLaVanda varchar (100),
+ConLaBanda varchar (100),
 instrumental varchar (100),
 mis_Solos varchar (100),
 mis_Riff varchar (100),
