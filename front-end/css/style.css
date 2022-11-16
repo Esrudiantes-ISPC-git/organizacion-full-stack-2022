@@ -500,6 +500,8 @@ form > p {
   border-radius: 50px !important;
   width: 5vw;
   height: 5vw;
+  min-width: 36px;
+  min-height: 36px;
 }
 
 .mis-bandas {
@@ -507,14 +509,6 @@ form > p {
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
-  gap: 10px;
-  width: 50vw;
-}
-
-.discografia {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
   gap: 10px;
   width: 50vw;
 }
@@ -595,6 +589,18 @@ form > p {
   padding-right: 8px;
 }
 
+.like {
+  width: 20px;
+  height: 20px;
+  margin-left: 5vw;
+  margin-right: 8px;
+}
+
+.like:hover {
+  transform: scale(1.2);
+  filter: drop-shadow(0 2px 5px rgba(23, 204, 41, 1));
+}
+
 @media screen and (max-width: 1300px) {
   .seccion-izq_perfiles {
     width: 220px;
@@ -628,6 +634,10 @@ form > p {
 
   .mis-bandas {
     width: 90vw;
+  }
+
+  .canciones-titulo {
+    margin-top: 80px;
   }
 }
 
