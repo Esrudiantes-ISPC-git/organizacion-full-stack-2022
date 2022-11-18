@@ -513,6 +513,16 @@ form > p {
   width: 50vw;
 }
 
+.mi-lugar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 50vw;
+}
+
+
 .card-img-top {
   object-fit: cover !important;
 }
@@ -529,6 +539,15 @@ form > p {
   flex-wrap: wrap;
   flex: 2;
 }
+
+.lugar-videos {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-wrap: wrap;
+  flex: 2;
+}
+
 
 .aside {
   flex: 1;
@@ -632,7 +651,17 @@ form > p {
     flex-direction: row;
   }
 
+  .lugar-videos {
+    margin-top: 400px;
+    margin-left: 10px;
+    flex-direction: row;
+  }
+
   .mis-bandas {
+    width: 90vw;
+  }
+
+  .mi-lugar {
     width: 90vw;
   }
 
@@ -708,4 +737,11 @@ form > p {
     margin-left: 10px;
     flex-direction: column;
   }
+
+  .lugar-videos {
+    margin-top: 480px;
+    margin-left: 10px;
+    flex-direction: column;
+  }
+
 }
