@@ -16,6 +16,10 @@ https://match-music.netlify.app/
 
 https://www.figma.com/file/ELkqMrsz5tkrXCObzN0Ssi/Proyecto-Integrador-ISPC?node-id=2%3A95
 
+# Video Demo
+
+https://youtu.be/elYuNMi9Wss
+
 Proyecto Sistema Gestion de Contenido
 
 https://proyectoispc-grupo20.ed.urltemporal.com/wp/
