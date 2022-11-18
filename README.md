@@ -20,6 +20,6 @@ https://www.figma.com/file/ELkqMrsz5tkrXCObzN0Ssi/Proyecto-Integrador-ISPC?node-
 
 https://youtu.be/elYuNMi9Wss
 
-Proyecto Sistema Gestion de Contenido
+# Proyecto Sistema Gestion de Contenido
 
 https://proyectoispc-grupo20.ed.urltemporal.com/wp/
